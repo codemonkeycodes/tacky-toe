@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TicTacToeProject.frmMain" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAQAACACAAAAADABDAAAACAAAAAACAAACAAAYAIAA=</HashCode>
+      <FileName>frmMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeProject.frmOnePlayer" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9wAAAAAUACBgABAAABSJCAAiEQgAAAAEAAAABAAAAAI=</HashCode>
+      <FileName>frmOnePlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeProject.frmTCPSocketClient" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9wAAAAAQACAAABAACBCACIQiHgAAAIAGCUEABQAQAAA=</HashCode>
+      <FileName>frmTCPSocketClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeProject.frmTCPSocketServer" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9wAEAAAUACAAABAgCBCBCIAiHIgAAIAASQkAAQAQAAA=</HashCode>
+      <FileName>frmTCPSocketServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeProject.TicTacToeBoard">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>wAgAEACAAAgAIAEACASAACAAAAgQAQAAAAAAAACFAAA=</HashCode>
+      <FileName>TicTacToeBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeProject.TicTacToeLogic">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TicTacToeProject.TicTacToeLogic.PlayerSymbol" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TicTacToeLogic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Delegate Name="TicTacToeProject.TicTacToeLogic.WinHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TicTacToeLogic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="TicTacToeProject.TicTacToeLogic.TieHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TicTacToeLogic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABEAABAAAgBYIAAGAAAAgAAAAAAAAAAACAAAAAAAI=</HashCode>
+      <FileName>TicTacToeLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeProject.Player" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABCABAAAAAAAAIAAAAAACAIBEgAQAAABAoAAgBAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TicTacToeProject.Program" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeProject.TicTacToe">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>TicTacToeGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeProject.Properties.Resources" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeProject.Properties.Settings" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
